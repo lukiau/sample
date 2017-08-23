@@ -19,7 +19,7 @@ body {
   position: relative;
 }
 .background-image::after {
-  background-image: url(/images/background.jpg);
+  background-image: url(../images/background.jpg);
   background-position: center top;
   background-size: cover;
   content: "";
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* HEADER STYLES */
 .header {
-  background-image: url(/images/header.jpg);
+  background-image: url(../images/header.jpg);
   background-position: center center;
   background-size: cover;
   border-bottom: 1px solid;
