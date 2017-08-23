@@ -1,10 +1,10 @@
 <nav>
   <ul class="menu-content">
-    <li><a class="menu-items" href="{{ page.description }}/">主頁</a></li>
-    <li class="">
+    <li class="menu-items"><a href="{{ page.description }}/">主頁</a></li>
+    <li class="menu-items">
       <input type="checkbox" id="click-characters" class="invisible-check">
       <em class="triangle"></em>
-      <div class="menu-items">
+      <div>
         <label for="click-characters" class="show-characters">
           角色介紹
         </label>
@@ -18,16 +18,18 @@
         <li><a href="{{ page.description }}/">暗屬</a></li>
       </ul>
     </li>
-    <li>
+    <li class="menu-items">
       <input type="checkbox" id="click-event" class="invisible-check">
+      <em class="triangle"></em>
       <div class="menu-items">
         <label for="click-event" class="show-event">
           活動
         </label>
       </div>
     </li>
-    <li>
+    <li class="menu-items">
       <input type="checkbox" id="click-strategy" class="invisible-check">
+      <em class="triangle"></em>
       <div class="menu-items">
         <label for="click-strategy" class="show-strategy">
           攻略區
